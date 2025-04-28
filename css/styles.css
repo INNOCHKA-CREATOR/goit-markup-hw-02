@@ -1,8 +1,6 @@
+
+
  /*head*/
-
- /* font-family: "Roboto",
- sans-serif; */
-
  :root {
      --iris: #4d5ae5;
      --ocean: #404bbf;
@@ -17,7 +15,12 @@
      --white: #fff;
      --dairy: #fcfcfc;
  }
-
+body {
+    font-family: "Roboto",
+        sans-serif;
+    color: #434455;
+    background-color: #FFFFFF
+}
 
 /*header*/
 
@@ -28,6 +31,9 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--navy-blue)
+           
+    }
+    
     
  }
 
