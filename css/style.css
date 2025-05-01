@@ -47,11 +47,11 @@ body {
 
 nav {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--navy-blue);
-display: flex;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
@@ -78,7 +78,7 @@ display: flex;
         font-style: normal;
 }
 
-.Contacts{
+.contacts {
 
 font-weight: 400;
 font-size: 16px;
@@ -87,11 +87,11 @@ letter-spacing: 0.02em;
 color: var(--slate);
 }
 
-.Contacts:hover {
+.contacts:hover {
     color: #404bbf;}
 
 
-.Contacts:focus{
+.contacts:focus{
     color: #404bbf;
 }
 
@@ -100,7 +100,7 @@ background-color:#2e2f42;
 
 }
 
-.Solutions {
+.solutions {
     font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -112,7 +112,7 @@ background-color:#2e2f42;
 
 /*body*/
 
-button
+.button
 {
 font-weight: 500;
 font-size: 16px;
