@@ -34,11 +34,22 @@ body {
 
     }
     
-    
- 
+.webstudio-web{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--iris);
+}
 
-.webstudio-web {
- color: var(--iris);
+.webstudio-studio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue);
 }
 
 nav {
@@ -72,6 +83,7 @@ display: flex;
         color: var(--white);
         background: var(--navy-blue);
 }
+
 /*body*/
 
 button
@@ -158,12 +170,23 @@ p {
 
 /*footer*/
 
-p {
+
+.footer {
+    width: 1440px;
+    height: 312px;
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--cloud);
-        background: var(--navy-blue);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+    background: var(--navy-blue);
        
+}
+.webstudio-studio-2 {ont-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--cloud);
+
 }
