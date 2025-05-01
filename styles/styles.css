@@ -165,13 +165,16 @@ button:focus {
     color: var(--slate);
 }
 
-/*section-2*/
+/*endsection-2*/
+
+
+
+/*section-3*/
 
 .section-3 {
     background-color: #F4F4FD;
 }
 
-/*section-3*/
 .our_team {
     font-weight: 700;
         font-size: 36px;
@@ -182,8 +185,11 @@ button:focus {
         text-transform: capitalize;
 }
 
+.img {
+    background-color: #FFFFFF
+}
 
-.list {
+.list-3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -191,7 +197,7 @@ button:focus {
     color: var(--navy-blue);
 }
 
-.text{
+.text-3{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
