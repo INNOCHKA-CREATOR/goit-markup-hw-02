@@ -171,7 +171,7 @@ button:focus {
 
 /*section-3*/
 
-.section-3 {
+.section3 {
     background-color: #F4F4FD;
 }
 
@@ -190,11 +190,7 @@ button:focus {
 }
 
 .list-3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    background-color: #FFFFFF;
 }
 
 .text-3{
@@ -205,11 +201,11 @@ button:focus {
     color: var(--slate);
 }
 /*section-4*/
-.section-4 {
+.section4 {
     background-color: #FFFFFF;
 
 }
-.portfolio-4
+.portfolio4
 {
     font-weight: 700;
     font-size: 36px;
