@@ -27,26 +27,19 @@ body {
 .webstudio {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navy-blue)
+    color: var(--iris);
+    font-family: "Raleway", sans-serif
 
     }
     
-.webstudio-web{
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--iris);
-}
 
 .webstudio-studio {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--navy-blue);
@@ -65,23 +58,56 @@ display: flex;
     gap: 40px;
 }
 
-.address     a {
-    font-weight: 400;
+.studio {
+    font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--slate);
-        font-style: normal
+        color: var(--navy-blue);
+       
+}
+.studio:hover{
+    color: #404bbf;
+}
+
+.studio:focus{
+    color: #404bbf;
+}
+
+.address     a {
+        font-style: normal;
+}
+
+.Contacts{
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
+}
+
+.Contacts:hover {
+    color: #404bbf;}
+
+
+.Contacts:focus{
+    color: #404bbf;
+}
+
+.title {
+background-color:#2e2f42;
+
 }
 
 .Solutions {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: var(--white);
-        background: var(--navy-blue);
+        
 }
 
 /*body*/
@@ -89,10 +115,10 @@ display: flex;
 button
 {
 font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--white);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--white);
 border-radius: 4px;
 padding: 16px 32px;
 width: 169px;
@@ -110,7 +136,9 @@ button:focus {
     background-color: #404BBF;
 }
 
-/*section-1*/
+
+
+/*section-2*/
 
 h2 {
     font-weight: 700;
@@ -140,17 +168,22 @@ p {
 
 /*section-2*/
 
-/*section-3*/
+.section-3 {
+    background-color: #F4F4FD;
+}
 
-h2 {
+
+.Our_Team {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: var(--navy-blue);
         text-transform: capitalize;
 }
+
+
 
 h3 {
     font-weight: 500;
@@ -160,13 +193,23 @@ h3 {
     color: var(--navy-blue);
 }
 
-p {
+.Our_Team > p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
 }
+/*section-4*/
+.Our_Portfolio{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: var(--navy-blue);
+}
+
 
 /*footer*/
 
@@ -182,11 +225,10 @@ p {
     background: var(--navy-blue);
        
 }
-.webstudio-studio-2 {ont-weight: 700;
+.footer-studio{font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--cloud);
-
 }
