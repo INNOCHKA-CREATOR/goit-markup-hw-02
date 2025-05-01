@@ -149,7 +149,7 @@ button:focus {
     color: var(--navy-blue);
 }
 
-.list>h3 {
+.list h3 {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -157,7 +157,7 @@ button:focus {
         color: var(--navy-blue);
 }
 
-.list>p {
+.list p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -171,7 +171,7 @@ button:focus {
     background-color: #F4F4FD;
 }
 
-
+/*section-3*/
 .our_team {
     font-weight: 700;
         font-size: 36px;
@@ -183,7 +183,7 @@ button:focus {
 }
 
 
-.list>h3 {
+.list h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -191,7 +191,7 @@ button:focus {
     color: var(--navy-blue);
 }
 
-.list>p {
+.list p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
