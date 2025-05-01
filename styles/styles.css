@@ -149,7 +149,7 @@ button:focus {
     color: var(--navy-blue);
 }
 
-.list h3 {
+.list {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -157,7 +157,7 @@ button:focus {
         color: var(--navy-blue);
 }
 
-.list p {
+.text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -183,7 +183,7 @@ button:focus {
 }
 
 
-.list>h3 {
+.list {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -191,7 +191,7 @@ button:focus {
     color: var(--navy-blue);
 }
 
-.list p {
+.text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
