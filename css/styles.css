@@ -90,7 +90,7 @@ color: var(--slate);
 
 
 .contacts:focus{
-    color: #404bbf;
+color: #404bbf;
 }
 
 .title {
@@ -99,26 +99,26 @@ background-color:#2e2f42;
 }
 
 .solutions {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: var(--white);
-        
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--white);      
 }
 
 /*body*/
 
 .button
 {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
+background-color: #4D5AE5;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
 }
 
 button:hover {
@@ -136,7 +136,7 @@ button:focus {
 .h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;      
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
@@ -147,7 +147,7 @@ button:focus {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .text{
@@ -216,8 +216,6 @@ background-color: #FFFFFF;
 
 .footer {
 background-color:#2e2f42;
-width: 1440px;
-height: 312px;
 }
 
 .footer-studio {
@@ -227,6 +225,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #f4f4fd;
+font-family: "Raleway", sans-serif;
 }
 .footer-p {
 font-weight: 400;
